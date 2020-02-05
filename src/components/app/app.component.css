@@ -1,0 +1,103 @@
+.container {
+  padding-top: 15px;
+}
+
+.card {
+  padding: 1rem;
+  margin-bottom: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.24);
+  width: 800px;
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.image {
+  max-width: 100%;
+}
+
+.row-link{
+  width: 50%;
+  height: 100%;
+  max-height: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.row-img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.exp-block {
+  margin-bottom: 0.75rem;
+}
+
+footer {
+  background-color: white;
+  height: 48px;
+}
+
+.links-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.link-with-icon{
+  display: flex;
+  padding: 0.2rem;
+}
+
+.link-with-icon__icon{
+  margin-right: 0.5rem;
+}
+
+.rainbow {
+  animation: rainbow 10s ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+  100%, 0% {
+    color: rgb(255, 0, 0);
+  }
+  8% {
+    color: rgb(255, 127, 0);
+  }
+  16% {
+    color: rgb(255, 255, 0);
+  }
+  25% {
+    color: rgb(127, 255, 0);
+  }
+  33% {
+    color: rgb(0, 255, 0);
+  }
+  41% {
+    color: rgb(0, 255, 127);
+  }
+  50% {
+    color: rgb(0, 255, 255);
+  }
+  58% {
+    color: rgb(0, 127, 255);
+  }
+  66% {
+    color: rgb(0, 0, 255);
+  }
+  75% {
+    color: rgb(127, 0, 255);
+  }
+  83% {
+    color: rgb(255, 0, 255);
+  }
+  91% {
+    color: rgb(255, 0, 127);
+  }
+}
